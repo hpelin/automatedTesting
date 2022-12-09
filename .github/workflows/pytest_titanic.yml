@@ -15,6 +15,9 @@ jobs:
       run: |
         # $CONDA is an environment variable pointing to the root of the miniconda directory
         echo $CONDA/bin >> $GITHUB_PATH
-    - name: Install pytest
+    - name: Install dependencies
       run: |
         conda install pytest
+        pip install -e .
+    - name: Run pytest
+      run: pytest
