@@ -1,3 +1,5 @@
+![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+
 # Automated Testing Toy Example
 
 In this project, we'll practice using Pytest to automatically test the functionality of three kinds of files:
