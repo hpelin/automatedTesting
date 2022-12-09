@@ -1,4 +1,4 @@
-![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+[![Python Package using Conda](https://github.com/hpelin/automatedTesting/actions/workflows/pytest_titanic.yml/badge.svg)](https://github.com/hpelin/automatedTesting/actions/workflows/pytest_titanic.yml)
 
 # Automated Testing Toy Example
 
