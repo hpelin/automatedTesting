@@ -1,5 +1,5 @@
-c
 from pathlib import Path
+import requests
 
 
 url = 'https://raw.githubusercontent.com/mwaskom/seaborn-data/master/titanic.csv'
