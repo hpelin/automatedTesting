@@ -1,10 +1,10 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=61.0", "setuptools_scm[toml]>=6.2"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "titanic_helena"
-version = "0.1.0"
+dynamic = ["version"]
 authors = [
   { name="Helena Pelin", email="helena@example.com" },
 ]
@@ -20,3 +20,6 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/hpelin/automatedTesting/"
 "Bug Tracker" = "https://github.com/hpelin/automatedTesting/tree/main/issues"
+
+[tool.setuptools_scm]
+write_to = "titanic-helena/_version.py"
