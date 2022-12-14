@@ -1,3 +1,5 @@
+[![Python Package using Conda](https://github.com/hpelin/automatedTesting/actions/workflows/pytest_titanic.yml/badge.svg)](https://github.com/hpelin/automatedTesting/actions/workflows/pytest_titanic.yml)
+
 # Automated Testing Toy Example
 
 In this project, we'll practice using Pytest to automatically test the functionality of three kinds of files:
