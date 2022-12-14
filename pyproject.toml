@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "titanic_helena"
+version = "0.1.0"
+authors = [
+  { name="Helena Pelin", email="helena@example.com" },
+]
+description = "See how titanic is crashing into the iceberg"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/hpelin/automatedTesting/"
+"Bug Tracker" = "https://github.com/hpelin/automatedTesting/tree/main/issues"
